@@ -1,0 +1,56 @@
+header {
+    padding: 10px;
+   
+    
+}
+
+nav{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ background-color: rgb(159, 189, 216);
+ border-radius: 10px;
+ 
+
+}
+nav img{
+    height: 80px;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    
+}
+li{
+    list-style-type: none;
+    padding:  0 10px;
+    font-size: 25px;
+    text-shadow: 2px 2px 3px rgb(49, 48, 48);
+    transition: all 1.2s;
+}
+li:hover{
+    transform: scale(1.1);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400 ;
+    transition: all .5s;
+    
+}
+a:hover{
+    color: white;
+   
+}
+
+.carrito{
+    font-size: 25px ;
+    cursor: pointer;
+    
+}
+.carrito:hover{
+    text-decoration: overline;
+}
